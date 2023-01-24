@@ -54,5 +54,18 @@ document.write(zuPunkt3 + "</br>");
 // 4. 
 console.log(zuPunkt3.indexOf("to")); // 23 +2
 console.log(zuPunkt3.slice(0,25))
-let zuPunkt4 = zuPunkt3.slice(0,25)
+let zuPunkt4 = zuPunkt3.slice(0,25).concat(" gym ").concat(text4).concat(" to the movie theater");
 console.log(zuPunkt4);
+document.write(zuPunkt4 + "</br>");
+
+// 5. 
+console.log(zuPuntk1.indexOf("to")); // 13 + 2
+console.log(zuPuntk1.indexOf("theater")); // 40 + 7
+console.log("theater".length); // 7
+let zuPunkt5 = text2.concat(zuPuntk1.slice(3,15)).concat(zuPuntk1.slice(15,47));
+console.log("zu Punkt 5:" + zuPunkt5);
+document.write(zuPunkt5 + "</br>");
+
+document.write(zuPuntk1.replace("Sam", "Susi") + "</br>");
+
+
